@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactsstyle.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">  
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">I. Ivanov</div>
+        <ul class="nav-links">
+            <li><a href='home.html'>Home</a></li>
+            <li><a href='contacts.html'>Contacts</a></li>
+        </ul>
+
+        <div class="popup-btn">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+
+        </div>
+    </nav>
+    <div class="container">
+        <div class="form-div">
+            <h2 class="contactheader">Contact Me</h2>
+            <div class="emaildiv">
+                <label class="emaillabel" for="email">Email</label>
+                <input class="emailinput" type="text" name="email" placeholder="John@tmail.com">
+            </div>
+            <div class="namediv">
+                <label class="namelabel" for="name">Name</label>
+                <input class="nameinput" type="text" name="name" placeholder="Your Name">
+            </div>
+            <div class="messagediv">
+                <label class="messagelabel" for="message">Your Message</label>
+                <textarea class="messageinput" placeholder="Leave me a message..."></textarea>
+            </div>
+            <div class="submit">
+            <input type="button" class="submitbtn" value="Submit Message" Onclick='SendMessage();'>
+            </div>
+            <p class="privacy">By clicking the "Submit Message" button, your accept our <a href="privacypolicy.html" style="color:red;">privacy policy</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
