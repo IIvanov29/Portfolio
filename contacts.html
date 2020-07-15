@@ -24,18 +24,19 @@
         </div>
     </nav>
     <div class="container">
+        <form action ="SendMsg.py" method="POST">
         <div class="form-div">
             <h2 class="contactheader">Contact Me</h2>
             <div class="emaildiv">
-                <label class="emaillabel" for="email">Email</label>
+                <label class="emaillabel" for="email">Email <span style="color: red;">*</span></label>
                 <input class="emailinput" type="text" name="email" placeholder="John@tmail.com">
             </div>
             <div class="namediv">
-                <label class="namelabel" for="name">Name</label>
+                <label class="namelabel" for="name">Name <span style="color: red;">*</span></label>
                 <input class="nameinput" type="text" name="name" placeholder="Your Name">
             </div>
             <div class="messagediv">
-                <label class="messagelabel" for="message">Your Message</label>
+                <label class="messagelabel" for="message">Your Message </label>
                 <textarea class="messageinput" placeholder="Leave me a message..."></textarea>
             </div>
             <div class="submit">
@@ -43,6 +44,7 @@
             </div>
             <p class="privacy">By clicking the "Submit Message" button, your accept our <a href="privacypolicy.html" style="color:red;">privacy policy</a></p>
         </div>
+        </form>
     </div>
     <script src="script.js"></script>
 </body>

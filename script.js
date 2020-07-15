@@ -28,11 +28,10 @@ const SendMessage = () => {
     {
     document.querySelector('.emailinput').value=""
     document.querySelector('.nameinput').value=""
-    document.querySelector('.messageinput').value=""
     alert("Message Sent Successfully!")
     }
     else{
-        alert("Please enter a valid E-mail address")
+        alert("Please fill in all the marked('*') fields")
     }
 }
 const ProgressCircle = (elementid, textcolor,bgcolor, fgcolor, fluidcolorfront,fluidcolorback, percentage) =>{
