@@ -68,7 +68,7 @@ const ProgressCircle = (elementid, textcolor,bgcolor, fgcolor, fluidcolorfront,f
 navSlide();
 ProgressCircle("fluid-meter-python","white", "#646464", "#ffd43b", "#306998", "#4b8bbe", 80);
 ProgressCircle("fluid-meter-webdev", "white","#DAB92C", "#F16528", "#2EAADE", "#0B74B8", 70);
-ProgressCircle("fluid-meter-linux", "white","#0d0208", "#003b00", "#008f11", "#00ff41",40);
-ProgressCircle("fluid-meter-networking","black" ,"white", "black", "#15495D", "#C4122E",40);
+ProgressCircle("fluid-meter-linux", "white","#0d0208", "#003b00", "#008f11", "#00ff41",60);
+ProgressCircle("fluid-meter-networking","black" ,"white", "black", "#15495D", "#C4122E",100);
 ProgressCircle("fluid-meter-hardware", "white","#127BCA", "#C4122E", "#77B900", "#3A5900",70);
 

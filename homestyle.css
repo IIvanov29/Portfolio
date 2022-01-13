@@ -521,7 +521,7 @@ nav{
     margin-top:1vw;
 }
 .subsec2-6{
-    font-size:1.5vw;
+    font-size:3vw;
     border-right:0.2vw solid black;
     border-bottom: 0.2vw solid black;
     float:right;
@@ -754,7 +754,7 @@ nav{
         background-color:black
     }
     .subsec1{
-        font-size:6vw;
+        font-size:4.5vw;
         float:left;
         text-align: left;
         min-height:30vw;
@@ -775,7 +775,7 @@ nav{
         max-width:100%;
         margin-right:2.5%;
         margin-left:2.5%;
-        margin-top:2.5vw;
+        margin-top:15vh;
     
     
     }
@@ -853,13 +853,17 @@ nav{
         font-size:10vw;
     }
     .subsec2-5{
-        font-size:1.5vw;
-        padding: 1.5vw;
+        font-size:4vw;
+        padding-left: 3vw;
+        padding-top:1.5vw;
+        padding-bottom: 1.5vw;
+        padding-right:3vw;
         border-right:0.2vw solid black;
         border-bottom: 0.2vw solid black;
         min-height:11vw;
         width:100%;
     }
+    
     .subsec2-6 ol{
         margin-right:8vw !important;
     }
